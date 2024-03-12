@@ -21,16 +21,12 @@ body {
 /*imp! 'A' TAG CSS */
 
 a {
-  background: #000235;
-  color: #222;
   border-radius: 100%;
   display: inline-block;
   text-decoration: none;
   position: relative;
   margin: 0 12px;
   padding: 15px 18px;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
   transition: all 0.5s;
   box-shadow: 0 3px 10px rgba(255, 255, 255, 0.169);
 }
@@ -63,7 +59,6 @@ a.pinterest::before {
 
 a span {
   background: #fff;
-  color: #222;
   font-size: 14px;
   font-weight: bold;
   position: absolute;
@@ -71,10 +66,7 @@ a span {
   left: -20px;
   right: -25px;
   padding: 5px;
-  visibility: hidden;
   opacity: 0;
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
   transition: all 0.4s;
 }
 
@@ -90,13 +82,11 @@ a span::before {
 
 a:hover span {
   bottom: 50px;
-  visibility: visible;
   opacity: 1;
 }
 
 a.facebook:hover {
   background-color: #4183d7;
-  color: #bfbfbf;
 }
 
 a.facebook span {
@@ -105,7 +95,6 @@ a.facebook span {
 
 a.youtube:hover {
   background-color: #ff0000;
-  color: #fff;
 }
 
 a.youtube span {
@@ -114,7 +103,6 @@ a.youtube span {
 
 a.github:hover {
   background-color: #000;
-  color: #fff;
 }
 
 a.github span {
@@ -123,7 +111,6 @@ a.github span {
 
 a.dribble:hover {
   background-color: #f62459;
-  color: #fff;
 }
 
 a.dribble span {
@@ -132,7 +119,6 @@ a.dribble span {
 
 a.pinterest:hover {
   background-color: #f22613;
-  color: #fff;
 }
 
 a.pinterest span {
